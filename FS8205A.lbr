@@ -59,8 +59,6 @@
 <library>
 <packages>
 <package name="SOP65P640X120-8N">
-<circle x="-4.44" y="1.375" radius="0.1" width="0.2" layer="21"/>
-<circle x="-4.44" y="1.375" radius="0.1" width="0.2" layer="51"/>
 <wire x1="-2.25" y1="1.515" x2="2.25" y2="1.515" width="0.127" layer="51"/>
 <wire x1="-2.25" y1="-1.515" x2="2.25" y2="-1.515" width="0.127" layer="51"/>
 <wire x1="-2.25" y1="1.515" x2="2.25" y2="1.515" width="0.127" layer="21"/>
@@ -76,6 +74,7 @@
 <smd name="6" x="2.88" y="-0.325" dx="1.56" dy="0.4" layer="1" roundness="25"/>
 <smd name="7" x="2.88" y="0.325" dx="1.56" dy="0.4" layer="1" roundness="25"/>
 <smd name="8" x="2.88" y="0.975" dx="1.56" dy="0.4" layer="1" roundness="25"/>
+<circle x="-3" y="2" radius="0.3" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
