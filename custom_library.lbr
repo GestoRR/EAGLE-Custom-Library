@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3232,6 +3232,87 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <rectangle x1="-0.889" y1="1.9558" x2="-0.381" y2="3.0988" layer="51"/>
 <rectangle x1="-2.159" y1="1.9558" x2="-1.651" y2="3.0988" layer="51"/>
 </package>
+<package name="CONN4_250-104_WAG">
+<pad name="1" x="0" y="0" drill="1.0922" diameter="1.8034"/>
+<pad name="2" x="3.5052" y="0" drill="1.0922" diameter="1.8034"/>
+<pad name="3" x="7.0104" y="0" drill="1.0922" diameter="1.8034"/>
+<pad name="4" x="10.4902" y="0" drill="1.0922" diameter="1.8034"/>
+<wire x1="0" y1="0" x2="-3.2512" y2="0" width="0.1524" layer="48"/>
+<wire x1="-3.2512" y1="0" x2="-8.3566" y2="0" width="0.1524" layer="48"/>
+<wire x1="-8.3566" y1="0" x2="-8.7376" y2="0" width="0.1524" layer="48"/>
+<wire x1="0" y1="7.2898" x2="-3.2512" y2="7.2898" width="0.1524" layer="48"/>
+<wire x1="-3.2512" y1="7.2898" x2="-8.3566" y2="7.2898" width="0.1524" layer="48"/>
+<wire x1="-8.3566" y1="7.2898" x2="-8.3566" y2="0" width="0.1524" layer="48"/>
+<wire x1="-8.2296" y1="7.0358" x2="-8.3566" y2="7.2898" width="0.1524" layer="48"/>
+<wire x1="-8.4836" y1="7.0358" x2="-8.3566" y2="7.2898" width="0.1524" layer="48"/>
+<wire x1="-8.4836" y1="7.0358" x2="-8.2296" y2="7.0358" width="0.1524" layer="48"/>
+<wire x1="-8.4836" y1="0.254" x2="-8.3566" y2="0" width="0.1524" layer="48"/>
+<wire x1="-8.2296" y1="0.254" x2="-8.3566" y2="0" width="0.1524" layer="48"/>
+<wire x1="-8.2296" y1="0.254" x2="-8.4836" y2="0.254" width="0.1524" layer="48"/>
+<wire x1="-3.2512" y1="-4.699" x2="-13.7414" y2="-4.699" width="0.1524" layer="48"/>
+<wire x1="-13.7414" y1="-4.699" x2="-14.1224" y2="-4.699" width="0.1524" layer="48"/>
+<wire x1="-3.2512" y1="7.2898" x2="-3.2512" y2="15.2146" width="0.1524" layer="48"/>
+<wire x1="-3.2512" y1="15.2146" x2="-3.2512" y2="17.7038" width="0.1524" layer="48"/>
+<wire x1="-3.2512" y1="17.7038" x2="-3.2512" y2="18.0848" width="0.1524" layer="48"/>
+<wire x1="12.2428" y1="7.2898" x2="12.2428" y2="17.7038" width="0.1524" layer="48"/>
+<wire x1="12.2428" y1="17.7038" x2="12.2428" y2="18.0848" width="0.1524" layer="48"/>
+<wire x1="-3.2512" y1="17.7038" x2="12.2428" y2="17.7038" width="0.1524" layer="48"/>
+<wire x1="-3.2512" y1="17.7038" x2="-2.9972" y2="17.8308" width="0.1524" layer="48"/>
+<wire x1="-3.2512" y1="17.7038" x2="-2.9972" y2="17.5768" width="0.1524" layer="48"/>
+<wire x1="-2.9972" y1="17.8308" x2="-2.9972" y2="17.5768" width="0.1524" layer="48"/>
+<wire x1="12.2428" y1="17.7038" x2="11.9888" y2="17.8308" width="0.1524" layer="48"/>
+<wire x1="12.2428" y1="17.7038" x2="11.9888" y2="17.5768" width="0.1524" layer="48"/>
+<wire x1="11.9888" y1="17.8308" x2="11.9888" y2="17.5768" width="0.1524" layer="48"/>
+<wire x1="-8.3566" y1="7.2898" x2="-13.7414" y2="7.2898" width="0.1524" layer="48"/>
+<wire x1="-13.7414" y1="7.2898" x2="-14.1224" y2="7.2898" width="0.1524" layer="48"/>
+<wire x1="-13.7414" y1="7.2898" x2="-13.7414" y2="-4.699" width="0.1524" layer="48"/>
+<wire x1="-13.6144" y1="7.0358" x2="-13.7414" y2="7.2898" width="0.1524" layer="48"/>
+<wire x1="-13.8684" y1="7.0358" x2="-13.7414" y2="7.2898" width="0.1524" layer="48"/>
+<wire x1="-13.8684" y1="7.0358" x2="-13.6144" y2="7.0358" width="0.1524" layer="48"/>
+<wire x1="-13.8684" y1="-4.445" x2="-13.7414" y2="-4.699" width="0.1524" layer="48"/>
+<wire x1="-13.6144" y1="-4.445" x2="-13.7414" y2="-4.699" width="0.1524" layer="48"/>
+<wire x1="-13.6144" y1="-4.445" x2="-13.8684" y2="-4.445" width="0.1524" layer="48"/>
+<wire x1="0" y1="0" x2="0" y2="15.2146" width="0.1524" layer="48"/>
+<wire x1="-3.2512" y1="0" x2="-3.2512" y2="7.2898" width="0.1524" layer="48"/>
+<wire x1="-3.2512" y1="15.2146" x2="0" y2="15.2146" width="0.1524" layer="48"/>
+<wire x1="-0.254" y1="15.0876" x2="0" y2="15.2146" width="0.1524" layer="48"/>
+<wire x1="-0.254" y1="15.3416" x2="0" y2="15.2146" width="0.1524" layer="48"/>
+<wire x1="-0.254" y1="15.3416" x2="-0.254" y2="15.0876" width="0.1524" layer="48"/>
+<wire x1="-2.9972" y1="15.3416" x2="-3.2512" y2="15.2146" width="0.1524" layer="48"/>
+<wire x1="-2.9972" y1="15.0876" x2="-3.2512" y2="15.2146" width="0.1524" layer="48"/>
+<wire x1="-2.9972" y1="15.0876" x2="-2.9972" y2="15.3416" width="0.1524" layer="48"/>
+<wire x1="3.5052" y1="0" x2="3.5052" y2="15.2146" width="0.1524" layer="48"/>
+<wire x1="3.5052" y1="15.2146" x2="3.5052" y2="15.5956" width="0.1524" layer="48"/>
+<wire x1="0" y1="15.2146" x2="0" y2="15.5956" width="0.1524" layer="48"/>
+<wire x1="0" y1="15.2146" x2="3.5052" y2="15.2146" width="0.1524" layer="48"/>
+<wire x1="3.2512" y1="15.0876" x2="3.5052" y2="15.2146" width="0.1524" layer="48"/>
+<wire x1="3.2512" y1="15.3416" x2="3.5052" y2="15.2146" width="0.1524" layer="48"/>
+<wire x1="3.2512" y1="15.3416" x2="3.2512" y2="15.0876" width="0.1524" layer="48"/>
+<wire x1="0.254" y1="15.3416" x2="0" y2="15.2146" width="0.1524" layer="48"/>
+<wire x1="0.254" y1="15.0876" x2="0" y2="15.2146" width="0.1524" layer="48"/>
+<wire x1="0.254" y1="15.0876" x2="0.254" y2="15.3416" width="0.1524" layer="48"/>
+<text x="-9.4996" y="-11.049" size="1.27" layer="48" ratio="6" rot="SR0">Default Padstyle: c180h109</text>
+<text x="-11.9888" y="-12.954" size="1.27" layer="48" ratio="6" rot="SR0">1st Mtg Padstyle: r203_305h127</text>
+<text x="-9.8806" y="-14.859" size="1.27" layer="48" ratio="6" rot="SR0">2nd Mtg Padstyle: c178h178</text>
+<text x="-9.8806" y="-16.764" size="1.27" layer="48" ratio="6" rot="SR0">3rd Mtg Padstyle: c178h178</text>
+<text x="-9.4996" y="-18.669" size="1.27" layer="48" ratio="6" rot="SR0">Left Mtg Padstyle: c152h76</text>
+<text x="-10.0838" y="-20.574" size="1.27" layer="48" ratio="6" rot="SR0">Right Mtg Padstyle: c152h76</text>
+<text x="-10.2616" y="-22.479" size="1.27" layer="48" ratio="6" rot="SR0">Alt Padstyle 1: b152_229h76</text>
+<text x="-10.2616" y="-24.384" size="1.27" layer="48" ratio="6" rot="SR0">Alt Padstyle 2: b229_152h76</text>
+<text x="-15.7988" y="3.3274" size="0.635" layer="48" ratio="4" rot="SR0">0.287in/7.3mm</text>
+<text x="1.0414" y="18.2118" size="0.635" layer="48" ratio="4" rot="SR0">0.61in/15.5mm</text>
+<text x="-20.8026" y="0.9906" size="0.635" layer="48" ratio="4" rot="SR0">0.472in/12mm</text>
+<text x="-9.7536" y="15.0114" size="0.635" layer="48" ratio="4" rot="SR0">0.128in/3.25mm</text>
+<text x="-1.7272" y="15.7226" size="0.635" layer="48" ratio="4" rot="SR0">0.138in/3.5mm</text>
+<wire x1="-3.3782" y1="-4.826" x2="12.3698" y2="-4.826" width="0.1524" layer="21"/>
+<wire x1="12.3698" y1="-4.826" x2="12.3698" y2="7.4168" width="0.1524" layer="21"/>
+<wire x1="12.3698" y1="7.4168" x2="-3.3782" y2="7.4168" width="0.1524" layer="21"/>
+<wire x1="-3.3782" y1="7.4168" x2="-3.3782" y2="-4.826" width="0.1524" layer="21"/>
+<wire x1="0.381" y1="1.905" x2="-0.381" y2="1.905" width="0.508" layer="21" curve="-180"/>
+<wire x1="-0.381" y1="1.905" x2="0.381" y2="1.905" width="0.508" layer="21" curve="-180"/>
+<text x="1.2192" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+<text x="2.7686" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIL14" urn="urn:adsk.eagle:package:2008/1" type="box" library_version="1">
@@ -4188,6 +4269,29 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <pin name="A2" x="15.24" y="5.08" length="short" direction="pas" rot="R180"/>
 <pin name="WP" x="-12.7" y="5.08" length="short" direction="pas"/>
 </symbol>
+<symbol name="CONN4_250-104_WAG">
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="0" y="-2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="4" x="0" y="-7.62" visible="pad" length="middle" direction="pas"/>
+<wire x1="10.16" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="8.89" y2="0.8382" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="8.89" y2="-1.7018" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="8.89" y2="-4.2418" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="8.89" y2="-6.7818" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="8.89" y2="-0.8382" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="8.89" y2="-3.3782" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="8.89" y2="-5.9182" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="8.89" y2="-8.4582" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<text x="4.1656" y="5.3086" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BQ27427YZFR" prefix="U">
@@ -5002,6 +5106,28 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="250-104" prefix="J">
+<gates>
+<gate name="A" symbol="CONN4_250-104_WAG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN4_250-104_WAG">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COPYRIGHT" value="Copyright (C) 2025 Ultra Librarian. All rights reserved." constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Wago" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="250-104" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
